@@ -4,7 +4,7 @@
 // Login page — users enter email + password
 // The (auth) folder name is just for grouping, it doesn't affect the URL
 // ===========================================
-
+export const dynamic = 'force-dynamic';
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';

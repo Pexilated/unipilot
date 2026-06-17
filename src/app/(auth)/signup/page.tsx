@@ -3,7 +3,7 @@
 // src/app/(auth)/signup/page.tsx
 // Signup page — new users create their account
 // ===========================================
-
+export const dynamic = 'force-dynamic';
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
